@@ -12,7 +12,10 @@ const Menu = () => (
       style={{
         listStyle: "none",
         display: "flex",
-        justifyContent: "space-evenly",
+        justifyContent: "space-between",
+        width: "960px",
+        margin: "auto",
+        paddingLeft: "20px",
       }}
     >
       <li>
@@ -24,7 +27,11 @@ const Menu = () => (
       <li>
         <Link to="/services">Services</Link>
       </li>
-      <li>
+      <li
+        style={{
+          paddingRight: "20px",
+        }}
+      >
         <Link to="/blog">Blog</Link>
       </li>
     </ul>

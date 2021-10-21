@@ -4,7 +4,7 @@ import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const BlogPage = ({ data }) => (
+const BlogHome = ({ data }) => (
   <Layout>
     <Seo title="Blog" />
     <h1>Blog! </h1>
@@ -45,4 +45,4 @@ export const pageQuery = graphql`
   }
 `
 
-export default BlogPage
+export default BlogHome
